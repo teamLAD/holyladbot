@@ -75,7 +75,7 @@ buttons = [
     ],
     [  
         InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/teamladz_bothub"),
-        InlineKeyboardButton(text="𝙻𝙾𝙶𝚂", url="https://t.me/elna_logs"),
+        InlineKeyboardButton(text="𝙻𝙾𝙶𝚂", url="https://t.me/ladz_logs"),
     ], 
 
     [
