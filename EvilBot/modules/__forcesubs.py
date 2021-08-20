@@ -86,7 +86,7 @@ def _check_member(client, message):
             except UserNotParticipant:
                 try:
                     sent_message = message.reply_text(
-                        "Welcome {} 🙏 \n **You havent joined our @{} Channel yet** 😭 \n \nPlease Join [Our Channel](https://t.me/{}) and hit the **UNMUTE ME** Button. \n \n ".format(
+                        "ᴡᴇʟᴄɪᴍᴇ {}\n **ʏᴏᴜ ʜᴀᴠᴇ'ɴᴛ ᴊᴏɪɴᴇᴅ ᴏᴜʀ @{} ᴄʜᴀɴɴᴇʟ ʏᴇᴛ** \n \n ᴊᴏɪɴ [ᴏᴜʀ ᴄʜᴀɴɴᴇʟ](https://t.me/{}) ᴀɴᴅ ᴛʜᴇɴ ʜɪᴛ **ᴜɴᴍᴜᴛᴇ ᴍᴇ** ʙᴜᴛᴛᴏɴ. \n \n ".format(
                             message.from_user.mention, channel, channel
                         ),
                         disable_web_page_preview=True,
@@ -94,13 +94,13 @@ def _check_member(client, message):
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "Join Channel",
+                                        "ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ",
                                         url="https://t.me/{}".format(channel),
                                     )
                                 ],
                                 [
                                     InlineKeyboardButton(
-                                        "UnMute Me", callback_data="onUnMuteRequest"
+                                        "ᴜɴᴍᴜᴛᴇ ᴍᴇ", callback_data="onUnMuteRequest"
                                     )
                                 ],
                             ]
@@ -111,13 +111,13 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "❗ **Evil is not admin here..**\n__Give me ban permissions and retry.. \n#Ending FSub...__"
+                        "❗ **ᴇʟɴᴀ ɪs ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ʜᴇʀᴇ..**\n__ɢɪᴠᴇ ᴍᴇ ʙᴀɴ ᴘᴇʀᴍɪssɪᴏɴs ᴀɴᴅ ʀᴇᴛʀʏ.. \n#Ending FSub...__"
                     )
 
             except ChatAdminRequired:
                 client.send_message(
                     chat_id,
-                    text=f"❗ **I not an admin of @{channel} channel.**\n__Give me admin of that channel and retry.\n#Ending FSub...__",
+                    text=f"❗ **ɪ ᴀᴍ ɴᴏᴛ ᴀ ᴀᴅᴍɪɴ ᴏғ @{channel} ᴄʜᴀɴɴᴇʟ.**\n__ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ʀᴇᴛʀʏ.\n#Ending FSub...__",
                 )
 
 
@@ -175,7 +175,7 @@ def config(client, message):
                 message.reply_text("❌ **Force Subscribe is disabled in this chat.**")
     else:
         message.reply_text(
-            "❗ **Group Creator Required**\n__You have to be the group creator to do that.__"
+            "❗ **ɢʀᴏᴜᴘ ᴄʀᴇᴀᴛᴇʀ ʀᴇǫᴜɪʀᴇᴅ**\n__You have to be the group creator to do that.__"
         )
 
 
