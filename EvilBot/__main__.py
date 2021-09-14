@@ -64,14 +64,14 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`𝙷𝙴𝙻𝙻𝙾` [✅](https://telegra.ph/file/a9e4e42b473a2f9f0d2f0.jpg)  `𝙰𝙼` *𝞝𝙇𝞟𝞐*
-`𝙸'𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿𝚂!`
-`𝙵𝙾𝚁 𝙼𝙾𝚁𝙴 𝙷𝙸𝚃` *𝙷𝙴𝙻𝙿 𝙱𝚄𝚃𝚃𝙾𝙽✓*   
+`ʜᴇʟʟᴏ` [✅](https://telegra.ph/file/7b43269e5493cad9ca37d.jpg)  `ᴀᴍ` *𝞝𝙇𝞟𝞐*
+`ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs!`
+`ғᴏʀ ᴍᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs ʜɪᴛ` *𝙷𝙴𝙻𝙿* `𝙱𝚄𝚃𝚃𝙾𝙽✓`  
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿", url="t.me/ladz_queenbot?startgroup=true"),
+            text="𝙰𝙳𝙳 𝙼𝙴", url="t.me/ladz_queenbot?startgroup=true"),
     ],
     [  
         InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/TEAM_LAD"),
