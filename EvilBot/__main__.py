@@ -74,12 +74,12 @@ buttons = [
             text="𝙰𝙳𝙳 𝙼𝙴", url="t.me/ladz_queenbot?startgroup=true"),
     ],
     [  
-        InlineKeyboardButton(text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url="https://t.me/TEAM_LAD"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/TEAM_LAD"),
         InlineKeyboardButton(text="𝙻𝙾𝙶𝚂", url="https://t.me/ladz_logs"),
     ], 
 
     [
-        InlineKeyboardButton(text="𝙳𝙴𝚅", url="https://t.me/alavalaathy"), 
+        InlineKeyboardButton(text="𝙳𝙴𝚅", url="https://t.me/alavalathy"), 
         InlineKeyboardButton(text="𝙷𝙴𝙻𝙿", callback_data="help_back"),
     ],
 ]
